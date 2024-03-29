@@ -3,20 +3,35 @@
   --second-family: "Sorts Mill Goudy", sans-serif;
   --third-family: "Bowlby One SC", sans-serif;
 }
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+a,
+li,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
 section {
   background-image: url(./netflix-background-image\ 1.png);
-  width: 1440px;
+  /* width: 1440px;
   height: 1096px;
   top: 30px;
-  left: -1526px;
+  left: -1526px; */
   gap: 0px;
   opacity: 0px;
+  background-repeat: no-repeat;
 }
 .container {
-  width: 1240px;
+  /* width: 1240px;
   height: 1036px;
   top: 30px;
-  left: 100px;
+  left: 100px; */
   gap: 0px;
   opacity: 0px;
 }
@@ -44,6 +59,10 @@ p {
   text-align: center;
   color: white;
 }
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
 form {
   opacity: 0px;
   color: #1a1306;
@@ -58,18 +77,31 @@ label {
   color: #ffffff;
   width: 460px;
   height: 94px;
-  top: 198px;
-  left: 510px;
   gap: 0px;
   opacity: 0px;
 }
-input {
+.info input {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   color: #5b5151;
+  width: 420px;
+  height: 60px;
+  padding: 10px;
+  border: none;
 }
+select {
+  width: 420px;
+  height: 60px;
+  padding: 10px;
+  border: none;
+}
+.feedback form {
+  width: 420px;
+  height: 91px;
+}
+
 button {
   border-radius: 50px;
   width: 160px;
@@ -77,4 +109,9 @@ button {
   color: #ffffff;
   background-color: #ff0000;
   border: none;
+  text-align: center;
+  justify-content: center;
+}
+button:hover {
+  background-color: #941010;
 }
