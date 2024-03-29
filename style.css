@@ -45,13 +45,9 @@ p {
   color: white;
 }
 form {
-  width: 500px;
-  height: 887px;
-  top: 178px;
-  left: 470px;
-  gap: 0px;
   opacity: 0px;
   color: #1a1306;
+  text-align: center;
 }
 label {
   font-family: Roboto;
