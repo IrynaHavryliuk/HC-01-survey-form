@@ -70,3 +70,10 @@ input {
   text-align: center;
   color: #5b5151;
 }
+button {
+  border-radius: 50px;
+  width: 160px;
+  height: 45px;
+  color: #ffffff;
+  background-color: #ff0000;
+}
