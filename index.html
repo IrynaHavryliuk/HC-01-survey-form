@@ -6,66 +6,87 @@
       name="viewport"
       content="width=HC-01-survey-form, initial-scale=1.0"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <title>HC-01-survey-form</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <section>
-      <h1>NET<span>FLIX</span></h1>
-      <p>Thank you for signing up to Netflix.Tell me more about yourself.</p>
-      <div class="container">
-        <form action="#" class="info">
-          <label for="name">Name</label><br />
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value="enter your name"
-          /><br />
-          <label for="age">Age</label><br />
-          <input type="text" id="age" name="age" value="age" /><br />
-          <label for="email">Email</label><br />
-          <input type="text" id="email" name="email" value="enter your Email" />
-        </form>
-        <h2>Content Type</h2>
-        <form action="" class="info">
-          <select id="genreFilter">
-            <option value="all">All Genres</option>
-            <option value="movies">movies</option>
-            <option value="tv-shows">TV shows</option>
-            <option value="mystery">Mystery</option>
-            <option value="fantasy">Fantasy</option>
-            <option value="computer">Computer &amp; Technology</option>
-          </select>
-        </form>
-        <h2>Movie Type</h2>
-        <form>
-          <input type="checkbox" id="movie1" name="movie1" value="Comedy" />
-          <label for="movie1">Comedy</label><br />
-          <input type="checkbox" id="movie2" name="movie2" value="Action" />
-          <label for="movie2">Action</label><br />
-          <input type="checkbox" id="movie3" name="movie3" value="Romance" />
-          <label for="movie3">Romance</label>
-        </form>
-        <p>Gender</p>
-        <form>
-          <input type="radio" id="html" name="gender" value="Male" />
-          <label for="male">Male</label><br />
-          <input type="radio" id="html" name="gender" value="Female" />
-          <label for="female">Female</label><br />
-          <input type="radio" id="html" name="gender" value="Other" />
-          <label for="other">Other</label><br />
-        </form>
-        <form action="#" class="feedback">
-          <label for="feedback">Feedback</label><br />
-          <input
-            type="text"
-            id="feedback"
-            name="feedback"
-            value="any comment"
-          />
-        </form>
-        <button type="submit">Send</button>
+      <div class="container-box">
+        <h1>NET<span>FLIX</span></h1>
+        <p class="thanks">
+          Thank you for signing up to Netflix.Tell me more about yourself.
+        </p>
+        <div class="container">
+          <form action="#" class="info">
+            <label class="marg" for="name">Name</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value="enter your name"
+            /><br />
+            <label class="marg" for="age">Age</label><br />
+            <input type="text" id="age" name="age" value="age" /><br />
+            <label class="marg" for="email">Email</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value="enter your Email"
+            />
+          </form>
+          <form action="" class="info">
+            <label class="marg" for="">Content Type</label>
+            <select id="genreFilter">
+              <option value="all">All Genres</option>
+              <option value="movies">movies</option>
+              <option value="tv-shows">TV shows</option>
+              <option value="mystery">Mystery</option>
+              <option value="fantasy">Fantasy</option>
+              <option value="computer">Computer &amp; Technology</option>
+            </select>
+          </form>
+          <form>
+            <label class="marg" for="">Movie Type</label> <br />
+            <input type="checkbox" id="movie1" name="movie1" value="Comedy" />
+            <label for="movie1">Comedy</label><br />
+            <input type="checkbox" id="movie2" name="movie2" value="Action" />
+            <label for="movie2">Action</label><br />
+            <input type="checkbox" id="movie3" name="movie3" value="Romance" />
+            <label for="movie3">Romance</label>
+          </form>
+          <form>
+            <label class="marg" for="">Gender</label> <br />
+            <input type="radio" id="html" name="gender" value="Male" />
+            <label for="male">Male</label><br />
+            <input type="radio" id="html" name="gender" value="Female" />
+            <label for="female">Female</label><br />
+            <input type="radio" id="html" name="gender" value="Other" />
+            <label for="other">Other</label><br />
+          </form>
+          <form action="#" class="info">
+            <label class="marg" for="feedback">Feedback</label><br />
+            <input
+              type="text"
+              id="feedback"
+              name="feedback"
+              value="any comment"
+            />
+          </form>
+          <button type="submit">Send</button>
+        </div>
       </div>
     </section>
   </body>

@@ -6,6 +6,22 @@
 * {
   box-sizing: border-box;
 }
+.bowlby-one sc-regular {
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sorts-mill goudy-regular {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sorts-mill goudy-regular-italic {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: italic;
+}
 
 h1,
 h2,
@@ -13,45 +29,68 @@ h3,
 a,
 li,
 ul,
-p {
+p,
+button {
   margin: 0;
   padding: 0;
 }
-section {
+body {
   background-image: url(./netflix-background-image\ 1.png);
-  /* width: 1440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+section {
+  width: 1440px;
   height: 1096px;
   top: 30px;
-  left: -1526px; */
+  left: -1526px;
   gap: 0px;
   opacity: 0px;
-  background-repeat: no-repeat;
+}
+.container-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: #0000004e;
 }
 .container {
-  /* width: 1240px;
-  height: 1036px;
-  top: 30px;
-  left: 100px; */
+  width: 500px;
+  height: 897px;
+  top: 168px;
+  left: 470px;
   gap: 0px;
-  opacity: 0px;
+  /* opacity: 80%; */
+  margin: auto;
+  /* width: 50%; */
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 16px;
+  background-color: #000000;
+  text-align: left;
+  margin-top: 10px;
 }
 h1 {
-  font-family: Bowlby One SC;
-  font-size: 50px;
+  font-family: "Bowlby One SC", sans-serif;
   font-weight: 400;
+  font-size: 50px;
   letter-spacing: 0.05em;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 span {
-  font-family: Bowlby One SC;
+  font-family: "Bowlby One SC", sans-serif, bold;
   font-size: 50px;
   font-weight: 400;
   letter-spacing: 0.05em;
   text-align: center;
   color: #ff0000;
 }
-p {
+.thanks {
   font-family: Sorts Mill Goudy;
   font-size: 23px;
   font-style: italic;
@@ -60,25 +99,33 @@ p {
   color: white;
 }
 h2 {
-  text-align: center;
   color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
 form {
   opacity: 0px;
   color: #1a1306;
-  text-align: center;
+  /* text-align: center; */
 }
 label {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.05em;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
-  width: 460px;
-  height: 94px;
+  /* width: 460px;
+  height: 94px; */
   gap: 0px;
   opacity: 0px;
+  margin-bottom: 10px;
+}
+.marg {
+  margin-top: 5px;
+  display: inline-block;
 }
 .info input {
   font-family: Roboto;
@@ -97,10 +144,10 @@ select {
   padding: 10px;
   border: none;
 }
-.feedback form {
+/* .feedback {
   width: 420px;
   height: 91px;
-}
+} */
 
 button {
   border-radius: 50px;
@@ -109,6 +156,8 @@ button {
   color: #ffffff;
   background-color: #ff0000;
   border: none;
+  margin-top: 13px;
+  display: inline-block;
   text-align: center;
   justify-content: center;
 }
