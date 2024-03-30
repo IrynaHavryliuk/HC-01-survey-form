@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bowlby-one sc-regular {
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sorts-mill goudy-regular {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sorts-mill goudy-regular-italic {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+html {
+  font-size: 16px;
+}
+body {
+  background-image: url(./netflix-background-image\ 1.png);
+  color: #fff;
+}
+main {
+  max-width: 1240px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Bowlby One SC", sans-serif;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #fff;
+}
+
+h1 span {
+  color: #ff0000;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: Sorts Mill Goudy;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+section {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+form {
+  max-width: 460px;
+  margin: auto;
+  font-size: 1rem;
+}
+.input-label {
+  display: block;
+}
+#name,
+#age,
+#email,
+#dropdown,
+#feedback {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+.box {
+  margin-top: 20px;
+}
+textarea {
+  height: 100px;
+}
+.form-submit {
+}
+button {
+  border-radius: 50px;
+  width: 160px;
+  height: 45px;
+  color: #ffffff;
+  background-color: #ff0000;
+  border: none;
+  margin-top: 13px;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+}
+button:hover {
+  background-color: #941010;
+}
